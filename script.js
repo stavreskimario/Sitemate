@@ -9,7 +9,7 @@
 function confirmAction() {
     let confirmAction = confirm("Are you sure to execute this action?");
     if (confirmAction) {
-      document.getElementById("text").innerHTML = "You clicked Yes";
+      document.getElementById("text").innerHTML = "You clicked OK";
     } else {
       document.getElementById("text").innerHTML = "You clicked Cancel";
     } 
